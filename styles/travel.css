@@ -1,0 +1,300 @@
+header {
+    background: #FFF;
+    padding: 60px 60px;
+}
+
+.h1 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+/* .img-A{
+    width: 100%;
+} */
+.text {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.texts {
+    position: absolute;
+
+
+}
+
+.img-a {
+    width: 100%;
+    height: 100%;
+}
+
+.t-h {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.t-d {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* .button-2,
+.button-3 {
+    
+} */
+
+.button-4 {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.two {
+    display: flex;
+    padding: 60px 60px;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.img-b {
+    width: 400px;
+    height: 400px;
+}
+
+.btn-5 {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.t-2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.t-d2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dest {
+    padding: 60px 60px;
+}
+
+.txt-1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.para {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.a-i,
+.b-i,
+.c-i {
+    display: flex;
+    gap: 10px;
+}
+
+.b-i {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-c {
+    width: 50%;
+    position: relative;
+}
+
+.img-d {
+    width: 34%;
+    position: relative;
+}
+
+.mal {
+    position: absolute;
+}
+
+.choose {
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.t-3 {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.t-d3 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.choose {
+    padding: 60px 60px;
+}
+
+.choo {
+    display: flex;
+    gap: 10px;
+}
+
+.cho,
+.cho-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.cho-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.cho,
+.cho-2 {
+    margin-bottom: 5px;
+}
+
+.foot {
+    padding: 60px 60px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.f-d {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.f-de {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:600px) {
+    .img-a {
+        height: 600px;
+    }
+
+    .two,
+    .choo,
+    .bttns {
+        display: inline;
+    }
+
+    header {
+        padding: 20px 20px;
+    }
+
+    .two,
+    .dest,
+    .choose {
+        padding: 20px 20px;
+    }
+
+    .button-1,
+    .button-2,
+    .button-3,
+    .button-4 {
+        background-size: 400px;
+    }
+
+    .btn-5 {
+        justify-content: center;
+    }
+
+    .img-c {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .img-d {
+        width: 50%;
+        position: relative;
+    }
+
+    .a-i,
+    .b-i,
+    .c-i {
+        display: inline;
+        gap: 10px;
+    }
+
+}
