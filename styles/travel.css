@@ -12,6 +12,8 @@
     font-weight: 800;
     border-radius: 8px;
     background: #FF5400;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* Shared style End */
@@ -150,6 +152,7 @@ nav li {
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .t-d2 {
@@ -183,6 +186,7 @@ nav li {
     font-weight: 400;
 }
 
+
 .allimgs {
     display: flex;
     justify-content: space-around;
@@ -191,11 +195,13 @@ nav li {
 .image-cont {
     position: relative;
     margin: 10px;
+    display: flex;
 }
 
 .image-cont img {
     object-fit: cover;
     overflow: hidden;
+    display: flex;
 }
 
 .centered-text {
@@ -376,9 +382,16 @@ select {
     .img-a {
         height: 600px;
     }
+    .texts {
+        position: absolute;
+        bottom: 00%;
+        text-align: center;
+        margin: 1px auto;
+        left: 20px;
+    
+    }
 
     .two,
-    .choo,
     .news {
         display: inline;
     }
@@ -395,12 +408,12 @@ select {
         padding: 20px 20px;
     }
 
-    .bttns {
+    .bttns, .image-cont {
         flex-direction: column;
     }
 
     .two,
-    .dest,
+    .dest-sect,
     .choose {
         padding: 20px 20px;
     }
@@ -425,7 +438,5 @@ select {
         position: relative;
     }
 
-    .images {
-        display: inline;
-    }
+    
 }
