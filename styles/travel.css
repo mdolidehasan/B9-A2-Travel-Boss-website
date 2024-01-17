@@ -1,5 +1,23 @@
+/* Shared style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* Shared style End */
+
+/* Header style start */
 header {
-    background: #FFF;
     padding: 60px 60px;
 }
 
@@ -16,7 +34,8 @@ header {
     font-size: 36px;
     font-weight: 800;
 }
-nav h3{
+
+nav h3 {
     justify-content: center;
 }
 
@@ -24,12 +43,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 nav>ul {
     display: flex;
 }
-nav .fa-bars{
+
+nav .fa-bars {
     display: none;
 }
 
@@ -43,13 +64,14 @@ nav li {
 } */
 .text {
     position: relative;
-    margin-top: 100px;
-    text-align: center;
 }
 
 .texts {
     position: absolute;
-
+    bottom: 30%;
+    text-align: center;
+    margin: 5px auto;
+    left: 110px;
 
 }
 
@@ -63,6 +85,7 @@ nav li {
     font-family: Mulish;
     font-size: 64px;
     font-weight: 800;
+    margin-bottom: 40px;
 }
 
 .t-d {
@@ -71,6 +94,17 @@ nav li {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.bttns {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    gap: 24px;
 }
 
 .button-1,
@@ -109,16 +143,7 @@ nav li {
     height: 400px;
 }
 
-.btn-5 {
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
+
 
 .t-2 {
     color: #131318;
@@ -134,11 +159,14 @@ nav li {
     font-weight: 400;
 }
 
-.dest {
+
+
+/* Choose your destination section */
+.dest-sect {
     padding: 60px 60px;
 }
 
-.txt-1 {
+.sect {
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -147,7 +175,7 @@ nav li {
     margin-bottom: 24px;
 }
 
-.para {
+.secd {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -155,26 +183,39 @@ nav li {
     font-weight: 400;
 }
 
-
-.a-i,
-.b-i,
-.c-i {
+.allimgs {
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
 }
 
-.b-i {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.image-cont {
+    position: relative;
+    margin: 10px;
+}
+
+.image-cont img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
 }
 
 .img-c {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
 .img-d {
-    width: 34%;
+    width: 100%;
     position: relative;
 }
 
@@ -182,6 +223,7 @@ nav li {
     position: absolute;
 }
 
+/* why choose us section */
 .choose {
     text-align: center;
     padding: 60px 60px;
@@ -203,6 +245,7 @@ nav li {
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .choose {
@@ -211,7 +254,7 @@ nav li {
 
 .choo {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .cho,
@@ -219,6 +262,10 @@ nav li {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+}
+
+.cho-1 {
+    background-size: 50px;
 }
 
 .cho-2 {
@@ -229,9 +276,10 @@ nav li {
 
 .cho,
 .cho-2 {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
+/* newsletter section */
 .news {
     display: flex;
     padding: 60px 60px;
@@ -254,6 +302,7 @@ nav li {
     font-family: Mulish;
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .newsd {
@@ -261,12 +310,23 @@ nav li {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn-24 {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .vl {
     color: #5A5A5D;
     height: 1px;
-    width: 150px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -274,13 +334,15 @@ nav li {
     text-align: center;
 }
 
-button {
+button,
+select {
     border-radius: 8px;
-    background: #FF5400;
     background-position: center;
     color: #FFF;
+    padding: 15px 50px;
     text-align: center;
-    font-family: Mulish;
+    border: none;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: 800;
 
@@ -308,6 +370,8 @@ button {
     font-weight: 300;
 }
 
+
+/* Responsive start */
 @media screen and (max-width:600px) {
     .img-a {
         height: 600px;
@@ -315,18 +379,24 @@ button {
 
     .two,
     .choo,
-    .bttns,
     .news {
         display: inline;
     }
-   nav ul{
+
+    nav ul {
         display: none;
     }
-    nav .fa-bars{
+
+    nav .fa-bars {
         display: inline;
     }
+
     header {
         padding: 20px 20px;
+    }
+
+    .bttns {
+        flex-direction: column;
     }
 
     .two,
@@ -342,9 +412,7 @@ button {
         background-size: 400px;
     }
 
-    .btn-5 {
-        justify-content: center;
-    }
+
 
     .img-c {
         width: 100%;
@@ -357,11 +425,7 @@ button {
         position: relative;
     }
 
-    .a-i,
-    .b-i,
-    .c-i {
+    .images {
         display: inline;
-        gap: 10px;
     }
-
 }
