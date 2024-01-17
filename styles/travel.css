@@ -68,8 +68,8 @@ nav li {
 }
 
 .button-1,
-.button-2,
-.button-3 {
+#button-2,
+#button-3 {
     color: rgba(19, 19, 24, 0.50);
     font-family: Mulish;
     font-size: 16px;
@@ -226,6 +226,59 @@ nav li {
     margin-bottom: 5px;
 }
 
+.news {
+    display: flex;
+    padding: 60px 60px;
+    gap: 10px;
+}
+
+.img-k {
+    width: 100%;
+}
+
+.newscls {
+    border: 100% solid;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-bottom: 10px;
+}
+
+.newsl {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsd {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vl {
+    color: #5A5A5D;
+    height: 1px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.bn{
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+    background: #FF5400;
+    background-position: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
 .foot {
     padding: 60px 60px;
     background: rgba(19, 19, 24, 0.05);
@@ -255,7 +308,8 @@ nav li {
 
     .two,
     .choo,
-    .bttns {
+    .bttns,
+    .news {
         display: inline;
     }
 
@@ -285,8 +339,9 @@ nav li {
         height: 100%;
         position: relative;
     }
+
     .img-d {
-        width: 50%;
+        width: 100%;
         position: relative;
     }
 
