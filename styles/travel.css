@@ -16,6 +16,9 @@ header {
     font-size: 36px;
     font-weight: 800;
 }
+nav h3{
+    justify-content: center;
+}
 
 nav {
     display: flex;
@@ -25,6 +28,9 @@ nav {
 
 nav>ul {
     display: flex;
+}
+nav .fa-bars{
+    display: none;
 }
 
 nav li {
@@ -313,7 +319,12 @@ button {
     .news {
         display: inline;
     }
-
+   nav ul{
+        display: none;
+    }
+    nav .fa-bars{
+        display: inline;
+    }
     header {
         padding: 20px 20px;
     }
