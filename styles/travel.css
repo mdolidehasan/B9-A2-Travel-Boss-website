@@ -408,7 +408,7 @@ select {
         padding: 20px 20px;
     }
 
-    .bttns, .image-cont {
+    .bttns, .allimgs {
         flex-direction: column;
     }
 
@@ -425,7 +425,7 @@ select {
         background-size: 400px;
     }
 
-
+    
 
     .img-c {
         width: 100%;
