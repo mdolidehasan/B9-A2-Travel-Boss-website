@@ -76,10 +76,10 @@ nav li {
     font-weight: 400;
 }
 
-/* .button-2,
-.button-3 {
-    
-} */
+.button-1 {
+    border-radius: 8px;
+    background: #FFF;
+}
 
 .button-4 {
     border-radius: 8px;
@@ -263,7 +263,8 @@ nav li {
     width: 150px;
     margin-bottom: 20px;
 }
-.bn{
+
+.bn {
     text-align: center;
 }
 
