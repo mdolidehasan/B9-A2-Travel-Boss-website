@@ -90,6 +90,9 @@ nav li {
     margin-bottom: 40px;
 }
 
+.poto{
+    text-align: center;
+}
 .t-d {
     color: #FFF;
     text-align: center;
@@ -97,6 +100,16 @@ nav li {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
+}
+.btn-3{
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bttns {
@@ -106,7 +119,6 @@ nav li {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
-    gap: 24px;
 }
 
 .button-1,
@@ -116,8 +128,11 @@ nav li {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
 }
-
+.opt{
+    justify-content: center;
+}
 .button-1 {
     border-radius: 8px;
     background: #FFF;
@@ -160,8 +175,8 @@ nav li {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    list-style: circle;
 }
-
 
 
 /* Choose your destination section */
@@ -268,10 +283,13 @@ nav li {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+
 }
 
 .cho-1 {
-    background-size: 50px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .cho-2 {
@@ -378,17 +396,18 @@ select {
 
 
 /* Responsive start */
-@media screen and (max-width:600px) {
+@media screen and (min-width:320px) and (max-width:600px) {
     .img-a {
         height: 600px;
     }
+
     .texts {
         position: absolute;
-        bottom: 00%;
+        bottom: 15%;
         text-align: center;
         margin: 1px auto;
-        left: 20px;
-    
+        left: 0;
+
     }
 
     .two,
@@ -408,7 +427,9 @@ select {
         padding: 20px 20px;
     }
 
-    .bttns, .allimgs {
+    .bttns,
+    .choo,
+    .allimgs {
         flex-direction: column;
     }
 
@@ -416,6 +437,9 @@ select {
     .dest-sect,
     .choose {
         padding: 20px 20px;
+    }
+    .t-2, .t-d2{
+        text-align: center;
     }
 
     .button-1,
@@ -425,7 +449,9 @@ select {
         background-size: 400px;
     }
 
-    
+    .img-b {
+        width: 100%;
+    }
 
     .img-c {
         width: 100%;
@@ -438,5 +464,10 @@ select {
         position: relative;
     }
 
-    
+    .t-h {
+        color: #FFF;
+        font-size: 30px;
+    }
+
+
 }
